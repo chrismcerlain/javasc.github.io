@@ -38,7 +38,7 @@ function highRatings (rating) {
     var counter2 = 0;
     for (i = 0; i<allMovies.length; i++) {
         if(allMovies[i].rating >= rating) {
-            console.log(allMovies[i].title + "has a rating of " + allMovies[i].rating);
+            console.log(allMovies[i].title + " has a rating of " + allMovies[i].rating);
             counter2++;
 
         }
